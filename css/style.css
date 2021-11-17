@@ -4,6 +4,7 @@
   opacity: 0.9;
   display: flex;
   justify-content: space-between;
+  top: 0px;
 }
 #Clock {
   background-color: rgb(236, 232, 232);
@@ -11,11 +12,12 @@
   opacity: 0.9;
   display: flex;
   justify-content: space-between;
-  right: 0px;
+  left: 0px;
+  top: 16px;
 }
 
 #Upmain {
-  height: 20px;
+  height: 25px;
   justify-content: center;
   align-items: center;
   margin: 5px;
