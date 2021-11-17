@@ -1,8 +1,46 @@
 #clock {
-  background-color: red;
+  margin: 2px;
 }
 
-#NYclock {
-  background-color: burlywood;
-  font-size: 14rem;
+h3 {
+  height: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
+
+#NyClock {
+  background-color: rgb(250, 194, 245);
+}
+
+#Sche {
+  content: "";
+  border: 3px solid black;
+  display: flex;
+
+  margin: 10px;
+}
+
+#Mon {
+  border: 1px dashed black;
+}
+#Tue {
+  border: 1px dashed black;
+}
+#Wed {
+  border: 1px dashed black;
+}
+#Thu {
+  border: 1px dashed black;
+}
+#Fri {
+  border: 1px dashed black;
+}
+
+#eco_Cal {
+  margin: 20px;
+}
+
+#major_indi {
+  margin: 20px;
 }
