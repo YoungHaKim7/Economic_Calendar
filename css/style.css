@@ -1,35 +1,3 @@
-#NyClock {
-  background-color: rgb(236, 232, 232);
-  position: fixed;
-  opacity: 0.9;
-  display: flex;
-  justify-content: space-between;
-  top: 0px;
-}
-#Clock {
-  background-color: rgb(236, 232, 232);
-  position: fixed;
-  opacity: 0.9;
-  display: flex;
-  justify-content: space-between;
-  left: 0px;
-  top: 16px;
-}
-
-#Upmain {
-  height: 25px;
-  justify-content: center;
-  align-items: center;
-  margin: 5px;
-}
-
-#Upmain2 {
-  height: 20px;
-  justify-content: center;
-  align-items: center;
-  margin: 2px;
-}
-
 #Sche {
   border: 3px solid black;
   display: flex;
