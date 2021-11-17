@@ -1,5 +1,5 @@
-const clock = document.querySelector("h2#clock")
 const Nyclock = document.querySelector("h1#NyClock")
+const clock = document.querySelector("h2#Clock")
 
 function getClock() {
     const date =  new Date();
@@ -10,7 +10,7 @@ function getClock() {
     const minutes = String(date.getMinutes()).padStart(2,"0");
     const seconds = String(date.getSeconds()).padStart(2,"0");
     clock.innerText = `한국 ${KrDate}`;
-    NyClock.innerText =  `NewYork(EST)  ${NyDate}  ⏰   ${NyDate1}`;
+    Nyclock.innerText =  `NewYork(EST)  ${NyDate}  ⏰   ${NyDate1}`;
 }
 
 getClock();
