@@ -1,24 +1,37 @@
-#clock {
-  margin: 2px 1px 5px;
+#NyClock {
+  background-color: rgb(236, 232, 232);
+  position: fixed;
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-between;
+}
+#Clock {
+  background-color: rgb(236, 232, 232);
+  position: fixed;
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-between;
+  right: 0px;
 }
 
-h3 {
-  height: 15px;
+#Upmain {
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+#Upmain2 {
+  height: 20px;
   justify-content: center;
   align-items: center;
   margin: 2px;
 }
 
-#NyClock {
-  background-color: rgb(250, 194, 245);
-}
-
 #Sche {
-  content: "";
   border: 3px solid black;
   display: flex;
-
-  margin: 10px;
+  margin: 10px 5px 5px 5px;
 }
 
 #Mon {
@@ -48,4 +61,11 @@ h3 {
 
 #major_indi {
   margin: 20px;
+  bottom: 20px;
+}
+
+#RealTimeCal {
+  margin: 5px;
+  height: 100vh;
+  width: 100%;
 }
