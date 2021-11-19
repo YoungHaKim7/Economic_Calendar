@@ -1,38 +1,4 @@
-#Sche {
-  border: 3px solid black;
-  display: flex;
-  margin: 10px 5px 5px 5px;
-}
-
-#Mon {
-  margin: 4px;
-  border-right: 1px dashed black;
-}
-#Tue {
-  margin: 4px;
-  border-right: 1px dashed black;
-}
-#Wed {
-  margin: 4px;
-  border-right: 1px dashed black;
-}
-#Thu {
-  margin: 4px;
-  border-right: 1px dashed black;
-}
-#Fri {
-  margin: 4px;
-  border-right: 1px dashed black;
-}
-
-#month__1 {
-  background-color: black;
-  color: white;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-#month__2 {
+.month__1 {
   background-color: black;
   color: white;
   padding-top: 5px;
@@ -59,4 +25,35 @@
   margin: 5px;
   height: 100vh;
   width: 100%;
+}
+.point {
+  background-color: aliceblue;
+  color: black;
+}
+
+.point1 {
+  margin: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.table1 {
+  padding: 3px;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.table2 {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.table3 {
+  padding: 5px;
+}
+.USYield1mon {
+  margin-top: 20px;
+  margin-left: 20px;
 }
