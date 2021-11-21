@@ -16,7 +16,7 @@
   padding-bottom: 5px;
 }
 
-#major_indi {
+.major_indi {
   margin: 20px;
   bottom: 20px;
 }
@@ -53,7 +53,7 @@
 .table3 {
   padding: 5px;
 }
-.USYield1mon {
+.image {
   margin-top: 20px;
   margin-left: 20px;
 }
