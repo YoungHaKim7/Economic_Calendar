@@ -16,6 +16,14 @@
   padding-bottom: 5px;
 }
 
+.color_b {
+  background-color: beige;
+}
+
+.color_a {
+  background-color: rgb(219, 245, 236);
+}
+
 .major_indi {
   margin: 20px;
   bottom: 20px;
