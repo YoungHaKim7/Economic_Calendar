@@ -1,7 +1,6 @@
 #NyClock {
   background-color: rgb(236, 232, 232);
   position: fixed;
-  opacity: 0.9;
   display: flex;
   justify-content: space-between;
   top: 0px;
@@ -9,7 +8,6 @@
 #Clock {
   background-color: rgb(236, 232, 232);
   position: fixed;
-  opacity: 0.9;
   display: flex;
   justify-content: space-between;
   left: 0px;
