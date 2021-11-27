@@ -35,12 +35,6 @@
     </a>
 </div>
 <hr>
-<span class="eco_Cal1">
-    <a href="index.html">
-        <첫화면으로 홈으로 가기>
-    </a>
-</span>
-<hr>
 <h3>실시간 경제 스케쥴</h3>
 <div class="tradingview-widget-container">
     <div class="tradingview-widget-container__widget"></div>
@@ -331,6 +325,60 @@
         );
     </script>
 </div>
+<style class="goupbtn">
+    .goupbtn {
+        padding: 1px 1px;
+        bottom: 40px;
+        right: 4px;
+        width: 38px;
+        height: 38px;
+        border-radius: 60%;
+        background-color: #ffffff;
+        border: red 4px solid;
+        position: fixed;
+        z-index: 1;
+}
+</style>
+<input class="goupbtn" type="button" value="Top" onclick="window.scrollTo(0,0);">
+<style class="nav nav__list nav__list-link">
+    .nav {
+        position: fixed;
+        width: 100%;
+        background-color: #fcfcfc;
+        padding: 1px 30px;
+        left: 0px;
+        bottom: 0px;
+        border-top: 1px solid #f7f7f7;
+        box-sizing: border-box;
+    }
+
+    .nav .nav__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav .nav__list-link {
+        position: relative;
+    }
+
+</style>
+<nav class="nav">
+    <ul class="nav__list">
+        <li class="nav__list-item">
+            <a href="index.html" class="nav__list-link">
+                첫화면으로</a>
+        </li>
+        <li class="nav__list-item">
+            <a href="analysis.html" class="nav__list-link">
+                경제지표
+            </a>
+        </li>
+        <li class="nav__list-item">
+            <a href="fibo.html" class="nav__list-link">
+                피보나치 계산기
+            </a>
+    </ul>
+</nav>
 </body>
 
 </html>
