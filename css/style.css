@@ -21,6 +21,10 @@
   font-weight: bold;
 }
 
+.line_c {
+  text-decoration: line-through;
+}
+
 .color_b {
   background-color: beige;
 }
